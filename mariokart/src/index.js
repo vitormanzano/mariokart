@@ -38,6 +38,13 @@ const player5 = {
     PONTOS: 0
 }
 
+const player6 = {
+    NOME: "Yoshi",
+    VELOCIDADE: 2,
+    MANOBRABILIDADE: 4,
+    PODER: 3,
+    PONTOS: 0
+}
 
 async function rollDice(){
     return Math.floor( Math.random() * 6) + 1;
