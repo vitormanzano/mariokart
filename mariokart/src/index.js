@@ -1,4 +1,5 @@
 const player1 = {
+
     NOME: "Mario",
     VELOCIDADE: 4,
     MANOBRABILIDADE: 3,
@@ -47,7 +48,7 @@ const player6 = {
 }
 
 async function rollDice(){
-    return Math.floor( Math.random() * 6) + 1;
+    return Math.floor( Math.random() * 6) + 1;  
 }
 
 async function getRandomBlock(){
