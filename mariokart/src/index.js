@@ -58,6 +58,7 @@ async function getRandomBlock(){
         case random < 0.33:
             result = "RETA"
             break;
+            
         case random <0.66:
             result = "CURVA"
             break;
