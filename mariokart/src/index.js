@@ -47,7 +47,7 @@ const player6 = {
 }
 
 async function rollDice(){
-    return Math.floor( Math.random() * 6) + 1;  
+    return Math.floor( Math.random() * 6) + 1;  //roda 6* um "dado"
 }
 
 async function getRandomBlock(){
