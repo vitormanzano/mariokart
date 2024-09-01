@@ -68,8 +68,7 @@ async function getRandomBlock(){
             break;    
     }
     return result;
-
-
+    
 }
 
 async function logRollResult(characterName,block,diceResult,attribute){
