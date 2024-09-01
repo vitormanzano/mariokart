@@ -62,6 +62,7 @@ async function getRandomBlock(){
         case random <0.66:
             result = "CURVA"
             break;
+            
         default:
             result = "CONFRONTO"
             break;    
